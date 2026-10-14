@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <section id="center">
-        <h1>This is git.</h1>
+        <h1>Shufflit</h1>
       </section>
 
       <div className="ticks"></div>
