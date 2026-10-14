@@ -3,16 +3,17 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import tailwindcss from '@tailwindcss/vite'
 import YouTubePlayer from 'youtube-player';
 
 function App() {
   const [count, setCount] = useState(0)
 
-  // let player = YouTubePlayer('video-player');
+  let player = YouTubePlayer('video-player');
       
-  // player.loadVideoById("NEqhf-0fN_k");
+  player.loadVideoById("NEqhf-0fN_k");
   
-  // player.playVideo();
+  player.playVideo();
 
   return (
     <>
